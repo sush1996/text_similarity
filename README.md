@@ -20,7 +20,13 @@ Enter the 2 text samples you want to compute the similarity against and hit `Che
 <br/>
 
 # Requirements
-*flask 1.1.2 `pip3 install flask==1.1.2`
+* flask 1.1.2 `pip3 install flask==1.1.2`
+
+# Running it using Docker
+use the below commands to run the web application using docker <br/>
+`sudo docker pull sush1996/text_similarity:latest`<br/>
+Followed by: <br/>
+`sudo docker run -p 5000:5000 text_similarity`
 
 # References
 * [Text n-grams](https://albertauyeung.github.io/2018/06/03/generating-ngrams.html) 
