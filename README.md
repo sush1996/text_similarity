@@ -24,7 +24,7 @@ Enter the 2 text samples you want to compute the similarity against and hit `Che
 
 # Running it using Docker
 assuming docker is installed in your system, you can run the below command to compute text similarity on a web browser using docker:<br/>
-`sudo docker run -p 5000:5000 text_similarity`
+`sudo docker run -p 5000:5000 sush1996/text_similarity:latest`
 
 # References
 * [Text n-grams](https://albertauyeung.github.io/2018/06/03/generating-ngrams.html) 
