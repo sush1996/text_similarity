@@ -6,12 +6,13 @@ Navigate to the directory containing `app.py` and run it using the command: <br/
 `python3 app.py` 
 <br/>
 
-This will open up something similar to what's shown below:
+This will open up something similar to what's shown below:<br/>
 ![Terminal Output](/images/terminal2.png)
 <br/>
 
-Hover your cursor over the hyperlink in red,right click and select `Open Link`. This should pop the below webpage on your browser:
+Hover your cursor over the hyperlink in red,right click and select `Open Link`. This should pop the below webpage on your browser:<br/>
 ![Webpage Output](/images/webpage.png)
+<br/>
 
-Enter the 2 text samples you want to compute the similarity against and hit `Check Similarity` on the webpage and you should be able to see the similarity score.
+Enter the 2 text samples you want to compute the similarity against and hit `Check Similarity` on the webpage and you should be able to see the similarity score.<br/>
 ![Webpage Output](/images/webpage2.png)
