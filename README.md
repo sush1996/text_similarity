@@ -23,9 +23,7 @@ Enter the 2 text samples you want to compute the similarity against and hit `Che
 * flask 1.1.2 `pip3 install flask==1.1.2`
 
 # Running it using Docker
-use the below commands to run the web application using docker <br/>
-`sudo docker pull sush1996/text_similarity:latest`<br/>
-Followed by: <br/>
+assuming docker is installed in your system, you can run the below command to compute text similarity on a web browser using docker:<br/>
 `sudo docker run -p 5000:5000 text_similarity`
 
 # References
