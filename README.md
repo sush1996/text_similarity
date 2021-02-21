@@ -14,5 +14,16 @@ Hover your cursor over the hyperlink in red,right click and select `Open Link`. 
 ![Webpage Output](/images/webpage.png)
 <br/>
 
-Enter the 2 text samples you want to compute the similarity against and hit `Check Similarity` on the webpage and you should be able to see the similarity score.<br/>
+Enter the 2 text samples you want to compute the similarity against and hit `Check Similarity` on the webpage and you should be able to see the similarity score <br/>
 ![Webpage Output](/images/webpage2.png)
+<br/>
+<br/>
+
+# Requirements
+*flask 1.1.2 `pip3 install flask==1.1.2`
+
+# References
+* [Text n-grams](https://albertauyeung.github.io/2018/06/03/generating-ngrams.html) 
+* [Character n-grams](https://github.com/emarkou/Text-Similarity)
+* [Jaccard Similarity](https://studymachinelearning.com/jaccard-similarity-text-similarity-metric-in-nlp/)
+* [Serving a model using Flask](https://guillaumegenthial.github.io/serving.html)
