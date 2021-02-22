@@ -6,7 +6,7 @@ Navigate to the directory containing `app.py` and run it using the command: <br/
 `python3 app.py` in the terminal.
 <br/>
 
-This will open up something similar to what's shown below:<br/>
+This will print something similar to what's shown below in your terminal:<br/>
 ![Terminal Output](/images/terminal2.png)
 <br/>
 
