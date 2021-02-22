@@ -3,7 +3,7 @@
 This Github repo contains programs to allow you to compare 2 text samples in your browser using a combination of the vanilla Jaccard similarity and slightly modified versions of the same metric using character n-grams and text n-grams.
 
 Navigate to the directory containing `app.py` and run it using the command: <br/>
-`python3 app.py` 
+`python3 app.py` in the terminal.
 <br/>
 
 This will open up something similar to what's shown below:<br/>
@@ -23,8 +23,8 @@ Enter the 2 text samples you want to compute the similarity against and hit `Che
 * Flask 1.1.2 `pip3 install Flask==1.1.2`
 
 # Running it using Docker
-assuming docker is installed in your system, you can run the below command to compute text similarity on a web browser using docker:<br/>
-`sudo docker run -p 5000:5000 sush1996/text_similarity:latest`
+Assuming docker is installed in your system, you can run the below command as well to compute text similarity on a web browser:<br/>
+`sudo docker run -p 5000:5000 sush1996/text_similarity:latest` - you can run this on your terminal without having to be at any specific path. Once that's done you should be able to see the same output on your terminal as in the above image. Navigate to the URL on the terminal and open link.
 
 # References
 * [Text n-grams](https://albertauyeung.github.io/2018/06/03/generating-ngrams.html) 
